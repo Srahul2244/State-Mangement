@@ -7,7 +7,7 @@ const Todo = () => {
   const [todoList, setTodoList] = useState([]);
   const [editText, setEditText] = useState("");
   const [editId, setEditId] = useState(null);
-
+  
   const Data = (todo) => {
     const payload = {
       title: todo,
